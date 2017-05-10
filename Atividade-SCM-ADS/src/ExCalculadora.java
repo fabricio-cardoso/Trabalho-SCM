@@ -22,15 +22,25 @@ public class ExCalculadora {
 			c1.menu();	
 		switch(c1.op){
 				case 1:
-					System.out.println(c1.somar(c1.num1, c1.num2));
+					System.out.println("A soma entre os números "+c1.num1+ " e "+c1.num2+ " é: "+c1.somar(c1.num1, c1.num2));
 				break;
-		//		default:
+				case 2:
+					System.out.println("A subtração entre os números "+c1.num1+ " e "+c1.num2+ " é: "+c1.subtrair(c1.num1, c1.num2));
+				break;
+				case 3:
+					System.out.println("A multiplicação entre os números "+c1.num1+ " e "+c1.num2+ " é: "+c1.multiplicar(c1.num1, c1.num2));
+				break;
+				case 4:
+					System.out.println("A divisão entre os números "+c1.num1+ " e "+c1.num2+ " é: "+c1.dividir(c1.num1, c1.num2));
+				break;
+					//		default:
 			//		System.out.println("opção inválida");
 		}			
 			}
 		while(c1.op != 0);
 		
-		System.out.println("saiu");
+		System.out.println("Você fechou a calculadora");
+		
 
 	}
 }
