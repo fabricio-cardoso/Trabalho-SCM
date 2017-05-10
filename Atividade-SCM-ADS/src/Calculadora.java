@@ -38,7 +38,7 @@ public class Calculadora {
 		System.out.println("*    Digite 2 para subtrair     *");
 		System.out.println("*    Digite 3 para multiplicar  *");
 		System.out.println("*    Digite 4 para dividir      *");
-		System.out.println("*    Digite 0 para sair         *");
+		System.out.println("*    Digite 0 para sair:        *");
 		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 		System.out.println("==>  ");
 			
