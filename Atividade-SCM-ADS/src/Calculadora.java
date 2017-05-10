@@ -24,13 +24,13 @@ public class Calculadora {
 	public int menu(){
 		Scanner in = new Scanner(System.in);
 		op = 0;
-		System.out.println("**********************************");
-		System.out.println("*    Digite 1 para somar         *");
-		System.out.println("*    Digite 2 para subtrair      *");
-		System.out.println("*    Digite 3 para multiplicar   *");
-		System.out.println("*    Digite 4 para dividir       *");
-		System.out.println("*    Digite 0 para sair          *");
-		System.out.println("**********************************");
+		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+		System.out.println("*    Digite 1 para somar        *");
+		System.out.println("*    Digite 2 para subtrair     *");
+		System.out.println("*    Digite 3 para multiplicar  *");
+		System.out.println("*    Digite 4 para dividir      *");
+		System.out.println("*    Digite 0 para sair         *");
+		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 		
 		op = in.nextInt();
 		return op;
