@@ -34,7 +34,11 @@ public class Calculadora {
 		Scanner in = new Scanner(System.in);
 		op = 0;
 		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+<<<<<<< HEAD
 		System.out.println("*    Digite 1 para soma :       *");
+=======
+		System.out.println("*    Digite 1 para soma;;        *");
+>>>>>>> branch 'master' of https://github.com/fabricio-cardoso/Trabalho-SCM.git
 		System.out.println("*    Digite 2 para subtrair     *");
 		System.out.println("*    Digite 3 para multiplicar  *");
 		System.out.println("*    Digite 4 para dividir      *");
