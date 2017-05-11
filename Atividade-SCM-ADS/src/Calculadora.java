@@ -41,6 +41,7 @@ public class Calculadora {
 		System.out.println("*    Digite 0 para sair:        *");
 		System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
 		System.out.println("==>  ");
+		System.out.println("Teste branch MEV");
 			
 		op = in.nextInt();
 		return op;
